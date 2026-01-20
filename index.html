@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SF Airbnb Listings</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header> 
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <h1>
+                        <a class="navbar-brand" href="#">SF Airbnb Listings</a>
+                    </h1>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                      </li>
+                    </ul>
+
+                  </div>
+                </div>
+              </nav>
+        </header>
+        
+        <main>
+            <div class="row">
+                <div class="col-lg-8">
+                    <section class="listings row">
+                        <h2>Listings</h2>
+                        <div class="bun-group">
+                            <button type="button" class="btn btn-outline-primary" id="sort-by-price">Sort by Price</button>
+                            <button type="button" class="btn btn-outline-primary" id="sort-by-rating">Sort by Rating</button>
+                        </div>
+                        <div id="listings-container" class="row">
+                        <div class="listing col-6">
+                            <article class="card">
+                                <img src="https://a0.muscache.com/pictures/b7c2a199-4c17-4ba6-b81d-751719d2dac6.jpg" alt="Thumbnail for Serviced apartment in San Francisco" width="300px" />
+                                <div class="card-body">
+                                    <div class="descirption overflow-scroll" style="max-height: 200px;"></div>
+                        </div>
+
+                    </section>
+
+
+                </div>
+                <div class="col-4">
+                    <h2>Create Listing</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">
+                                <div>Title</div>
+                                <input type="text" class="form-control" name="Title">
+                            </label>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">
+                                <div>Price</div>
+                                <input type="text" class="form-control" name="Price">
+                            </label>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">
+                                <div>Description</div>
+                                <input type="text" class="form-control" name="Description">
+                            </label>
+                        </div>
+                        <div class="mb-3">
+                            <button class="btn btn-primary" type="submit">Create</button>
+                            <button class="btn btn-secondary">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div>Made by YingyiK</div>
+        </footer>
+    </div>
+    <!--/container-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
+</body>
+
+</html>
