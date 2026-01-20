@@ -2,6 +2,12 @@
 
 A web application that displays and manages Airbnb listings in San Francisco.
 
+## 🚀 Live Demo / Deployment
+
+**Visit the deployed site:** [https://yingyik.github.io/airbnb-listings/](https://yingyik.github.io/airbnb-listings/)
+
+The site is deployed using GitHub Pages and is accessible at the link above.
+
 ## Project Objective
 
 This project implements a dynamic web page that loads and displays the first 50 Airbnb listings from San Francisco using AJAX (JavaScript Fetch API with async/await). The page displays comprehensive listing information including name, description, amenities, host details (name and photo), price, and thumbnails. Additionally, it features sorting functionality to help users find listings by price or rating.
