@@ -10,9 +10,6 @@ This project implements a dynamic web page that loads and displays the first 50 
 
 ![SF Airbnb Listings Screenshot](./screenshot.png)
 
-<!-- If you have a GIF showing the functionality, replace the above with: -->
-<!-- ![SF Airbnb Listings Demo](./demo.gif) -->
-
 ## Tech Requirements
 
 - **HTML5**: Semantic markup and structure
@@ -24,13 +21,7 @@ This project implements a dynamic web page that loads and displays the first 50 
 
 ## How to Install/Use
 
-### Option 1: Using GitHub Pages (Recommended)
-
-1. Visit the live demo: [https://yingyik.github.io/airbnb-listings/](https://yingyik.github.io/airbnb-listings/)
-
-
-
-### Option 2: Local Development
+### Local Development
 
 1. Clone the repository:
 ```bash
